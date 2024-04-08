@@ -12,7 +12,7 @@ import { FaArrowsToDot } from "react-icons/fa6";
 import moment from "moment";
 import { summary } from "../assets/data";
 import clsx from "clsx";
-import { Chart } from "../components/Chart";
+// import Chart  from "../components/Chart";
 import { BGS, PRIOTITYSTYELS, TASK_TYPE, getInitials } from "../utils";
 import UserInfo from "../components/UserInfo";
 
@@ -212,7 +212,7 @@ const Dashboard = () => {
         <h4 className='text-xl text-gray-600 font-semibold'>
           Chart by Priority
         </h4>
-        <Chart />
+        {/* <Chart /> */}
       </div>
 
       <div className='w-full flex flex-col md:flex-row gap-4 2xl:gap-10 py-8'>
